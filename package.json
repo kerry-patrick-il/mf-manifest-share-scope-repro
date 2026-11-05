@@ -1,0 +1,23 @@
+{
+  "name": "mf-manifest-share-scope-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproduction: mf-manifest.json drops shared share scopes and reports the wrong singleton default",
+  "license": "MIT",
+  "scripts": {
+    "build": "rspack build -c rspack.config.js && rspack build -c rspack.multi-scope.config.js",
+    "inspect": "node scripts/inspect.js",
+    "repro": "npm run build && npm run inspect"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react18": "npm:react@18.3.1",
+    "react19": "npm:react@19.1.1"
+  },
+  "devDependencies": {
+    "@module-federation/rspack": "2.9.2",
+    "@rspack/cli": "2.2.9",
+    "@rspack/core": "2.2.9"
+  }
+}
