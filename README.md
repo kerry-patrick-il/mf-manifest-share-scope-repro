@@ -78,7 +78,7 @@ mf-manifest.json shared:
   react@18.3.1: shareScope (missing), singleton (missing), js ["182.js","435.js"]
 ```
 
-Chunk ids can differ between machines, but the shape of the output shouldn't.
+Chunk ids and the order of lines can differ between runs, but the content shouldn't.
 
 ### Expected
 
