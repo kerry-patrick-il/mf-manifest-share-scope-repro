@@ -2,7 +2,7 @@
 
 This repository exists only to document and reproduce a bug in [Module Federation](https://github.com/module-federation/core): **`mf-manifest.json` drops the share scopes of shared dependencies and reports the wrong `singleton` default.** It isn't a library or an example to copy.
 
-Upstream issue: _link to be added_
+Upstream issue: [module-federation/core#5244](https://github.com/module-federation/core/issues/5244)
 
 ## Summary
 
