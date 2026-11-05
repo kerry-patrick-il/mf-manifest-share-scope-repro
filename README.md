@@ -121,7 +121,7 @@ The stats and manifest entries for this build also have no `singleton` or `share
 
 ## Proposed fix
 
-There are two pull requests to `module-federation/core`:
+There are two pull requests to `module-federation/core`, [#5245](https://github.com/module-federation/core/pull/5245) and [#5246](https://github.com/module-federation/core/pull/5246):
 
 1. **`fix(managers)`:** default `singleton` to `false` in `defaultSharedConfig` so it matches the runtime (bug 4).
 2. **`feat(manifest)`:** fixes bugs 1–3 with these changes:
@@ -153,7 +153,10 @@ Neither change fixes the missing `singleton` on the multi-scope entries, which c
 
 These are left for follow-up.
 
-The pull requests will be linked from the upstream issue.
+Pull requests:
+
+- [module-federation/core#5245](https://github.com/module-federation/core/pull/5245): `fix(managers)`
+- [module-federation/core#5246](https://github.com/module-federation/core/pull/5246): `feat(manifest)`
 
 ## License
 
